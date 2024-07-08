@@ -1,4 +1,15 @@
-let a = 5
-let b = 10
+console.log('hello world from HTML')
 
-console.log(`/hoidanit/${af}`)
+//key: value
+let obj = {
+    name: 'tronghieu',
+    address: 'TPHCM',
+    email: '',
+    gender: '',
+
+};
+
+let b = 'name';
+obj[b] = 'Hary'
+console.log('My name is ', obj.name)
+console.log('My address is ', obj.address)
